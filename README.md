@@ -1,24 +1,23 @@
-# How to run app.
+# Como executar o aplicativo.
 
-- Make sure you have docker installed on local machine
-- run `docker-compose-up`
-- check that flask server is up by going to `http://localhost:5000/api`
-- Navigate to `http://localhost:3000/` on the browser.
+- Certifique-se de ter o docker instalado na máquina local
+- execute `docker-compose-up`
+- verifique se o servidor flask está ativo indo para `http://localhost:5000/api`
+- Navegue até `http://localhost:3000/` no navegador.
 
-# Note
+# Observação
 
-If you see this:
+Se você ver isso:
 
 ```
 npm ERR! UpScore@0.6.0 start: `react-scripts start`
-npm ERR! spawn ENOENT
+npm ERR! gerar ENOENT
 ```
 
-It just means something went wrong when dependencies were installed the first time.
+Significa apenas que algo deu errado quando as dependências foram instaladas pela primeira vez.
 
-I suggest doing these three steps:
+Sugiro fazer estes três passos no docker file do client:
 
-- `npm install -g npm@latest` to update npm because it is sometimes buggy.
-- `rm -rf node_modules` to remove the existing modules.
-- `npm install` to re-install the project dependencies.
-
+- `npm install -g npm@latest` para atualizar o npm porque às vezes tem bugs.
+- `rm -rf node_modules` para remover os módulos existentes.
+- `npm install` para reinstalar as dependências do projeto.
