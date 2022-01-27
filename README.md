@@ -1,3 +1,8 @@
+# Pre Requisitos
+
+-Instalacao do docker.
+-Instalacao do docker-compose.
+
 # Baixar codigo docker
 
 - execute o comando abaixo apara baixar codigo do repoitorio github
