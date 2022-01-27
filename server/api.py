@@ -3,8 +3,8 @@ from flask import jsonify
 from flask import request
 import pysolr 
 
-solrNoticias = pysolr.Solr('http://solr.iclipping.com.br/solr/noticias/', timeout=60) #Online
-solrImpressos = pysolr.Solr('http://solr.iclipping.com.br/solr/impPR/', timeout=60) #Impresso
+solrNoticias = pysolr.Solr('http://solr.iclipping.com.br:8983/solr/noticias/', timeout=60) #Online
+solrImpressos = pysolr.Solr('http://solr.iclipping.com.br:8983/solr/impPR/', timeout=60) #Impresso
 
 app = Flask( __name__ )
 
