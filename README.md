@@ -18,6 +18,11 @@
 - verifique se o servidor flask está ativo indo para `http://localhost:5000/api`
 - Navegue até `http://localhost:3000/` no navegador.
 
+ # ReDeploy container Docker comando
+ 
+ - execute `docker-compose up -d --build`
+ Esse comando ira Refazer algum container que tenha sofrido  atualizacoes na sua stack.
+
 # Observação
 
 Se você ver isso:
