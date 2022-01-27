@@ -1,10 +1,13 @@
 # Baixar codigo docker
+
 - execute o comando abaixo apara baixar codigo do repoitorio github
    git clone https://github.com/BOCAPO/flask-react-docker.git
 
 - Acesse o diretorio com comando abaixo
    cd flask-react-docker 
    
+ # Deploy container Docker
+ 
 - Certifique-se de ter o docker instalado na máquina local
 - execute `docker-compose-up -d`
 - verifique se o servidor flask está ativo indo para `http://localhost:5000/api`
