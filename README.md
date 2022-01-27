@@ -9,7 +9,7 @@
  # Deploy container Docker
  
 - Certifique-se de ter o docker instalado na máquina local
-- execute `docker-compose-up -d`
+- execute `docker-compose up -d`
 - verifique se o servidor flask está ativo indo para `http://localhost:5000/api`
 - Navegue até `http://localhost:3000/` no navegador.
 
